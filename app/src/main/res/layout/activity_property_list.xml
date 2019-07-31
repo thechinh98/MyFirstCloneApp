@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:id="@+id/property"
+   android:layout_marginLeft="15dp"
+   android:layout_marginRight="15dp"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   tools:context=".ActivityPropertyList">
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+	  <ImageButton android:id="@+id/btn_back_category"
+				   android:layout_alignParentLeft="true"
+				   android:layout_width="wrap_content" android:layout_height="20dp"
+				   android:background="@drawable/ic_back_province"
+				   android:layout_marginTop="40dp"
+				   android:layout_marginLeft="0dp"/>
+	  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/btn_back_category"
+				android:layout_alignBottom="@+id/btn_back_category"
+				android:text=" Category" android:textSize="20sp" android:lineSpacingExtra="0.26sp"
+				android:textColor="#4980F9" android:id="@+id/country_name"/>
+	  <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+				   android:background="@drawable/ic_title"
+				   android:layout_alignParentRight="true"
+				   android:layout_alignBottom="@+id/btn_back_category"/>
+
+   </RelativeLayout>
+   <RelativeLayout android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content">
+	  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:id="@+id/title_content"
+				android:text="Community" android:textSize="30sp"
+				android:textColor="#000000"
+				android:lineSpacingExtra="0.44sp"/>
+	  <ImageButton android:id="@+id/ic_filter"
+				   android:layout_width="wrap_content" android:layout_height="wrap_content"
+				   android:src="@drawable/ic_filter"
+				   android:background="#ffffff"
+				   android:layout_alignParentRight="true"
+				   android:layout_alignBottom="@+id/title_content"/>
+   </RelativeLayout>
+   <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+			 android:hint="Search"
+			 android:paddingLeft="15dp"
+			 android:paddingBottom="6dp"
+			 android:paddingTop="6dp"
+			 android:background="@drawable/ic_search_bar"
+			 android:drawableRight="@drawable/ic_search_black_24dp"
+			 android:paddingRight="15dp"
+			 android:layout_marginRight="15dp"/>
+   <androidx.recyclerview.widget.RecyclerView
+	  android:id="@+id/PropertyList"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

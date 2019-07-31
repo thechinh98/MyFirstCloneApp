@@ -1,0 +1,45 @@
+<resources>
+   <string name="app_name">My First Clone App</string>
+   <string name="conner_logo">conner_logo</string>
+   <string name="title_activity_login">LoginActivity</string>
+   <string name="title_activity_login1">LoginActivity1</string>
+   <string name="logo">logo</string>
+   <string name="conner_image">conner_image</string>
+   <string name="input_user_hint">Username / Email</string>
+   <string name="craigslist">Craigslist</string>
+   <string name="need_an_account_click_here">Need an account? Click here</string>
+   <string name="forget_password">Forgot Password?</string>
+   <string name="login">Login</string>
+   <string name="password">Password</string>
+   <string name="country">Country</string>
+   <string name="search">Search</string>
+   <string name="india">India</string>
+   <string name="province_name"></string>
+   <string name="todo">TODO</string>
+   <string name="title_news">Snowbirds-Mature, Reliable guy can drive your car To or From Florida</string>
+   <string name="content_news">Book now for the lowest rate on Tampa Area to the Northeast Car transport (ANY STARTING
+	  OR ENDING LOCATION) I\'ll pick-up your car in FL, NY, NJ, PA or anywhere you need and drive it directly to your
+	  destination. I can pick you up at the airport or drive the vehicle to your home. Mature, responsible Dad, Husband,
+	  Homeowner, licensed and insured (owner of 2 cars). I made the FL/NY trip over 20 times in 2017 and can provide
+	  fast efficient, stress-free transportation of your vehicle. References available in NY, NJ and FL. Dog and Cat
+	  friendly, I\'ll take care of Fido or Fluffy like they were my own pet I\'m all about service and your convenience!
+	  Please email for further information
+	  Book now for the lowest rate on Tampa Area to the Northeast Car transport (ANY STARTING
+	  OR ENDING LOCATION) I\'ll pick-up your car in FL, NY, NJ, PA or anywhere you need and drive it directly to your
+	  destination. I can pick you up at the airport or drive the vehicle to your home. Mature, responsible Dad, Husband,
+	  Homeowner, licensed and insured (owner of 2 cars). I made the FL/NY trip over 20 times in 2017 and can provide
+	  fast efficient, stress-free transportation of your vehicle. References available in NY, NJ and FL. Dog and Cat
+	  friendly, I\'ll take care of Fido or Fluffy like they were my own pet I\'m all about service and your convenience!
+	  Please email for further information
+   </string>
+   <string name="navigation_bar">
+	  a
+	  b
+	  c
+   </string>
+   <string name="newsContent">Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh
+	  aesthetic food truck sriracha cornhole single-origin coffee church key roof party. Leggings ethical McSweeney\'s,
+	  normcore you probably haven\'t heard of them Marfa organic squid.
+   </string>
+   <string name="_14_comment">14 COMMENT</string>
+</resources>

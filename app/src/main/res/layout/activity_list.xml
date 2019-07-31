@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:paddingLeft="15dp"
+   android:orientation="vertical"
+   tools:context=".ActivityList">
+   <RelativeLayout
+	  android:layout_width="match_parent" android:layout_height="wrap_content"
+	  android:layout_marginRight="15dp">
+
+	  <TextView
+		 android:layout_width="wrap_content" android:layout_height="wrap_content"
+		 android:layout_marginLeft="0dp"
+		 android:layout_marginTop="35dp"
+		 android:text="Country" android:id="@+id/countryTitle" android:textSize="30sp"
+		 android:lineSpacingExtra="0.44sp" android:textColor="#000000" android:contentDescription="Page Title"/>
+	  <ImageView
+		 android:layout_width="wrap_content" android:layout_height="wrap_content"
+		 android:src="@drawable/ic_title"
+		 android:layout_alignParentRight="true"
+		 android:layout_alignBottom="@+id/countryTitle"/>
+   </RelativeLayout>
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+	  <EditText
+		 android:id="@+id/search_bar"
+		 android:layout_width="match_parent" android:layout_height="wrap_content"
+		 android:hint="Search"
+		 android:paddingLeft="15dp"
+		 android:paddingBottom="6dp"
+		 android:paddingTop="6dp"
+		 android:background="@drawable/ic_search_bar"
+		 android:drawableRight="@drawable/ic_search_black_24dp"
+		 android:paddingRight="15dp"
+		 android:layout_marginRight="15dp"/>
+	  <TextView
+		 android:id="@+id/countryName"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:layout_below="@+id/search_bar"
+		 android:text="@string/india"
+		 android:layout_marginTop="6dp"
+		 android:textSize="25sp" android:lineSpacingExtra="0.37sp" android:textColor="#000000"/>
+
+	  <androidx.recyclerview.widget.RecyclerView
+		 android:id="@+id/countryList"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 android:layout_below="@+id/countryName"
+		 android:layout_marginRight="15dp"
+	  >
+		 <com.reddit.indicatorfastscroll.FastScrollerView
+			android:id="@+id/fastscroller"
+			android:layout_width="32dp"
+			android:layout_height="match_parent"
+		 />
+		</androidx.recyclerview.widget.RecyclerView>
+   </RelativeLayout>
+</LinearLayout>
